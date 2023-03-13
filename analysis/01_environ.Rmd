@@ -1,0 +1,45 @@
+---
+title: "Climate data"
+author: "William Banks et al."
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load required packages
+
+We first load all required packages; all CRAN packages are retrieved in a snapshot of CRAN taken on 2023-01-01.
+
+```{r}
+## Load CRAN packages:
+library("cowplot")
+library("dismo")
+library("ggcorrplot")
+library("ggpubr")
+library("grid")
+library("here")
+library("mgcv")
+library("mgcViz")
+library("ncdf4")
+library("raster")
+library("rgdal")
+library("sf")
+library("sgat")
+library("sp")
+library("tidyverse")
+library("wesanderson")
+
+## Load non-CRAN packages:
+library("kuenm")
+```
+
+Then we set up the working directory using the library `{here}`:
+
+```{r}
+## Set up working directory:
+here::i_am("analysis/01_environ.Rmd")
+```
+
