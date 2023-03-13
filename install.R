@@ -18,4 +18,5 @@ install.packages("wesanderson")
 
 ## Load (and install) non-CRAN packages:
 install.packages("remotes")
+remotes::install_github("fmachados/grinnell")
 remotes::install_github("marlonecobos/kuenm")

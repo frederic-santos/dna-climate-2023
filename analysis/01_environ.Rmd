@@ -31,10 +31,16 @@ library("sgat")
 library("sp")
 library("tidyverse")
 library("wesanderson")
+```
 
+We also load some other packages available on GitHub:
+
+```{r}
 ## Load non-CRAN packages:
+library("grinnell")
 library("kuenm")
 ```
+
 
 Then we set up the working directory using the library `{here}`:
 
@@ -42,4 +48,3 @@ Then we set up the working directory using the library `{here}`:
 ## Set up working directory:
 here::i_am("analysis/01_environ.Rmd")
 ```
-
