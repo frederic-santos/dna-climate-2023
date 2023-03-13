@@ -1,0 +1,21 @@
+## Install CRAN packages:
+install.packages("cowplot")
+install.packages("dismo")
+install.packages("ggcorrplot")
+install.packages("ggpubr")
+install.packages("grid")
+install.packages("here")
+install.packages("mgcv")
+install.packages("mgcViz")
+install.packages("ncdf4")
+install.packages("raster")
+install.packages("rgdal")
+install.packages("sf")
+install.packages("sgat")
+install.packages("sp")
+install.packages("tidyverse")
+install.packages("wesanderson")
+
+## Load (and install) non-CRAN packages:
+install.packages("remotes")
+install_github("github::marlonecobos/kuenm")

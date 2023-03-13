@@ -1,0 +1,8 @@
+freeglut3-dev
+gdal-bin
+git
+libgdal-dev
+libgeos-dev
+libglu1-mesa-dev
+libudunits2-dev
+libx11-dev
