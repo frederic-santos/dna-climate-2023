@@ -48,3 +48,10 @@ Then we set up the working directory using the library `{here}`:
 ## Set up working directory:
 here::i_am("analysis/01_environ.Rmd")
 ```
+
+Finally, we display some additional information about the R session and the package versions:
+
+```{r}
+print(sessionInfo(), locale = FALSE)
+```
+
