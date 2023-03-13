@@ -18,4 +18,4 @@ install.packages("wesanderson")
 
 ## Load (and install) non-CRAN packages:
 install.packages("remotes")
-install_github("github::marlonecobos/kuenm")
+install_github("marlonecobos/kuenm")
